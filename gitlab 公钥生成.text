@@ -1,0 +1,136 @@
+
+本金规模 组件化
+产品列表 字段调整
+
+cd   回到根目录 （Users）
+～
+pwd 查看当前所在目录
+
+
+ssh-keygen （如果已经存在。可以覆盖。Y）
+生成私钥 公钥 
+
+回车
+```
+
++---[RSA 2048]----+
+| ooo=+.o ...  o+o|
+|  + =+= o   ..oo=|
+|   + Bo*     o= o|
+|    o +o+    o B |
+|     ...S.    o E|
+|      .o .     .o|
+|    ... o       .|
+|     oo          |
+|      +=         |
++----[SHA256]-----+
+
+看到这个 说明已经生成
+
+```
+
+ls .ssh/ 显示   .ssh 文件夹下的所有目录
+
+cat .ssh/id_rsa.pub   打开公钥的文件 复制到gitlab  生成新的公钥
+
+
+vim ~/.ss 打开根目录下的 .ssh文件
+
+ls .ssh/
+
+
+在新建的文件夹 git clone  xxxx.git. 第一次克隆项目会生成 known_hosts 文件 
+
+vim ~/.ssh/known_hosts  //已经存在的主机名称路径文件 （可修改可删除 重新生成）
+
+～ 代表家目录  / 根
+
+```
+ 499  cd d
+  500  cd 
+  501  pwd
+  502  cd /
+  503  ls -lh
+  504  cd /Users/dcj/
+  505  pwd
+  506  pwd
+  507  ls
+  508  ls -a
+  509  ls -l
+  510  ls -la
+  511  ls -l
+  512  ls -la
+  513  cd /Users/dcj/test/
+  514  cd ..
+  515  pwd
+  516  cd ~/test/
+  517  cd
+  518  cd 
+  519  pwd
+  520  ls -la
+  521  pwd
+  522  cd test/
+  523  ls
+  524  mkdir dir1
+  525  mkdir dir1/sub1dir1
+  526  mkdir dir1/sub1dir1/sub11dir1/sub111dir1
+  527  mkdir -p dir1/sub1dir1/sub11dir1/sub111dir1
+  528  mkdir -pv dir1/sub1dir1/sub11dir1/sub111dir1/sub1111dir1
+  529  mkdir -v dir2
+  530  ls -lh
+  531  mv dir1 ~/.Trash/
+  532  mv dir2 ~/.Trash/
+  533  cd ~/.Trash/
+  534  ls
+  535  ls -la
+  536  pwd
+  537  cd
+  538  cd test/
+  539  ls
+  540  touch a.tx
+  541  cat a.tx
+  542  ls
+  543  mv a.tx a.txt
+  544  ls
+  545  ls -la
+  546  vim a.txt 
+  547  cp formula/.git/config ./
+  548  ls
+  549  cp config config.bak
+  550  ls 
+  551  vim config
+  552  vim config
+  553  vim config
+  554  vim config
+  555  vim config
+  556  vim config
+  557  vim vim.txt
+  558  cd te
+  559  cd
+  560  cd test/
+  561  ls
+  562  vim config
+  563  grep "origin" --color -nr config
+  564  vim config
+  565* 
+  566  ls
+  567  mkdir dir1/
+  568  mkdir dir1/subdir1
+  569  cp config dir1/
+  570  cp config dir1/subdir1/
+  571  find ./dir1/
+  572  grep "origin" --color -nr config
+  573  grep "origin" --color -nr ./dir1/
+  574  grep "origin" --color -n ./dir1/
+  575  grep "origin" --color -n ./dir1/config 
+  576  cd
+  577  history 
+dcjdeMacBook-Air:~ dcj$ vim config
+dcjdeMacBook-Air:~ dcj$ 
+
+
+
+
+
+
+```
