@@ -1,0 +1,15 @@
+delete:dd
+copy:yy
+paste:p
+%s#source_str#target_str#g
+insert:i
+save:esc
+save + quit: wq | x
+not save + quit: q!
+
+
+control + A : 光标移动到行头
+control + E ：光标移动到行尾
+control + U ：删除本行
+
+cp : 复制目录
